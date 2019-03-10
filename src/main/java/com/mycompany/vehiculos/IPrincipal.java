@@ -14,6 +14,10 @@ public interface IPrincipal {
      * Declaracion de metodos
      */
     public void encender();
+
+    /**
+     * Declaracion de metodos
+     */
     public void apagar();
     
 }

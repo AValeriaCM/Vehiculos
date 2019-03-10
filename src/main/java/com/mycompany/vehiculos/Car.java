@@ -75,6 +75,9 @@ public class Car extends PoweredVehicle {
         System.out.println("  --Apaga carro...");
     }
     
+    /**
+     * Metodo que imprime string
+     */
     public void imprimeCarro(){
         
         System.out.println("***Este metodo es del carro");

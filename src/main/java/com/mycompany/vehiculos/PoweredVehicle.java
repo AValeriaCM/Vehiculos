@@ -32,18 +32,24 @@ public abstract class PoweredVehicle extends Vehicle{
         this.transmision = transmision;
         this.puerta = puerta;
     }
-
+    /**
+     * Metodo de la interface
+     */
     @Override
     public void encender(){
         System.out.println("  --Encender vehiculo...");
     }
-
+    /**
+     * Metodo de la interface
+     */
     @Override
     public void apagar(){
         System.out.println("  --Apagar vehiculo...");
     }
 
-    
+    /**
+     * Metodo que imprime string
+     */
     public void imprimeMotorizado(){
         
         System.out.println("***Este metodo es del vehiculo motorizado");
